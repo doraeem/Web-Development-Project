@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b49cb2;
+    background-image: url("9893fd3722abdbe2204e6920f3dd2951.jpg");
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(12, 11, 11);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #formContainer {
+    margin-top: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(145, 138, 138);
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #464044ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #465769;
+  }
+  
+  #formData {
+    display: none;
+    background-color: #333030;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #formData h2 {
+    margin-bottom: 10px;
+  }
+  
+  #formData p {
+    margin-bottom: 5px;
+  }
+  
+  #formData p strong {
+    font-weight: bold;
+  }
+  
+  #formData p span {
+    font-weight: normal;
+  }
+  
+  #editDeleteButtons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #editDeleteButtons button {
+    margin-right: 10px;
+  }
+  .form-group{
+    color: white;
+  }
